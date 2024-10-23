@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Bounty</title>
+    <link rel="stylesheet" href="./styless.css">
+    <link rel="icon" href="./img/favicon.png" type="image/png">
+</head>
+<body>
+    <div class="card" data-state="#about">
+        <div class="card-header">
+          <div class="card-cover" style="background-image: url(./img/markus-spiske-iar-afB0QQw-unsplash.jpg)"></div>
+          <img class="card-avatar" src="./img/bugbounty.png" alt="avatar" />
+          <h1 class="card-fullname">Bug Bounty</h1>
+          <h2 class="card-jobtitle">Future You</h2>
+        </div>
+        <div class="card-main">
+          <div class="card-section is-active" id="about">
+            <div class="card-content">
+              <div class="card-subtitle">About You</div>
+              <p class="card-desc">A Bug Bounty Hunter identifies and reports vulnerabilities in software applications and systems in exchange for rewards. 
+                They play a crucial role in improving security by proactively testing applications for weaknesses.
+              </p>
+            </div>
+          </div>
+          <div class="card-section" id="experience">
+            <div class="card-content">
+              <div class="card-subtitle">Skills and Qualifications</div>
+              <div class="card-timeline">
+                <div class="card-item">
+                  <div class="card-item-title">Educational Background <span></span></div>
+                  <div class="card-item-desc">Bachelor’s degree in Computer Science, Information Security, or a related field</div>
+                </div>
+                <div class="card-item">
+                  <div class="card-item-title">Experience</div>
+                  <div class="card-item-desc">Experience in penetration testing, vulnerability assessment, or a related field.</div>
+                </div>
+                <div class="card-item">
+                  <div class="card-item-title">Technical Skills</div>
+                  <div class="card-item-desc">Proficiency in programming languages (e.g., JavaScript, Python, Ruby) and security tools 
+                     (e.g., Burp Suite, Metasploit, Nmap).
+                  </div>
+                </div>
+                <div class="card-item">
+                    <div class="card-item-title">Certifications</div>
+                    <div class="card-item-desc">Relevant certifications (e.g., Certified Ethical Hacker (CEH), Offensive Security Certified Professional (OSCP), 
+                        CompTIA PenTest+) are a plus.
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-buttons">
+            <button data-section="#about" class="is-active">About</button>
+            <button data-section="#experience">Skills and Qualifications</button>
+        </div>
+      </div>
+      <script src="./script.js"></script>
+</body>
+</html>

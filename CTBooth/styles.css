@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    background: linear-gradient(to bottom, #003366, #3399ff); /* Blue gradient background */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quiz-container {
+    width: 600px; /* Adjust width here */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    backdrop-filter: blur(15px); /* Increased blur effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center text inside the container */
+}
+
+#result {
+    margin-top: 20px; /* Spacing for results */
+}
+
+.option-button {
+    margin: 10px 0; /* Adds space above and below each button */
+    padding: 10px; /* Optional: Adds padding for a cuter appearance */
+    width: 100%; /* Optional: Makes buttons full-width */
+    border: none; /* Optional: Removes border for a cleaner look */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    background-color: #34cceb; /* Optional: Adds background color */
+    color: white; /* Optional: Changes text color */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+.option-button:hover {
+    background-color: #2ca9d7; /* Darkens color on hover */
+}
